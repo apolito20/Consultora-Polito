@@ -1,0 +1,727 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Quicksand', sans-serif;
+  letter-spacing: 0.8px;
+}
+
+.header {
+  background: linear-gradient(30deg, #78bcc4, #002c3e);
+  height: 200px;
+}
+
+.header a {
+  text-decoration: none;
+  color: #f7f8f3;
+}
+
+.header__nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-top: -60px;
+  margin-right: 100px;
+}
+
+.header__logo {
+  width: 200px;
+  margin-left: 90px;
+}
+
+.nav__links {
+  list-style: none;
+  border-left: 2px solid #fa991c;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.nav__links:hover {
+  background-color: #78bcc4;
+}
+
+.presentacion {
+  margin-top: 20px;
+  padding: 20px;
+  text-align: center;
+  margin: 5%;
+  background-color: #f7f8f3;
+  letter-spacing: 2px;
+  padding: 40px;
+}
+
+.bold {
+  font-weight: bolder;
+}
+
+.presentacion__1 {
+  margin-top: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.mision__frases {
+  font-size: large;
+  display: flex;
+  justify-content: space-around;
+}
+
+.mision__frases__1 {
+  font-size: 30px;
+  background-color: #002c3e;
+  font-weight: bolder;
+  color: #f7f8f3;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  border-radius: 80px;
+  width: 32%;
+  padding: 70px;
+}
+
+.mision__frases__1:hover {
+  background-color: #fa991c;
+}
+
+.mision__frases__2 {
+  font-size: 30px;
+  background-color: #002c3e;
+  font-weight: bolder;
+  color: #f7f8f3;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  border-radius: 80px;
+  width: 32%;
+  padding: 70px;
+}
+
+.mision__frases__2:hover {
+  background-color: #fa991c;
+}
+
+.mision__frases__3 {
+  font-size: 30px;
+  background-color: #002c3e;
+  font-weight: bolder;
+  color: #f7f8f3;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  border-radius: 80px;
+  width: 32%;
+  padding: 70px;
+}
+
+.mision__frases__3:hover {
+  background-color: #fa991c;
+}
+
+.meet {
+  background-color: #fa991c;
+  padding: 40px;
+  align-items: center;
+  text-align: center;
+  height: 500px;
+  margin: 50px;
+  border: none;
+  border-radius: 20px;
+  display: flex;
+}
+
+.meet__img {
+  height: 400px;
+  width: 400px;
+  border-radius: 15px;
+  padding: 30px;
+}
+
+.generico__btn {
+  padding: 15px;
+  font-size: 15px;
+  font-weight: bolder;
+  border-radius: 15px;
+  border: none;
+  cursor: pointer;
+}
+
+.generico__btn:hover {
+  background-color: #78bcc4;
+  color: #212121;
+  font-weight: bolder;
+}
+
+/* form de contacto */
+form {
+  background-color: #78bcc4;
+  border-radius: 20px;
+  padding: 70px;
+  height: 700px;
+  margin: 50px;
+}
+
+.contacto {
+  margin-bottom: 50px;
+}
+
+.form-element-50 {
+  width: 50%;
+}
+
+.form-element-100 {
+  width: 100%;
+}
+
+input {
+  border-radius: 10px;
+  border: none;
+  width: 300px;
+  height: 45px;
+}
+
+.btn-primary {
+  width: 150px;
+  height: 50px;
+}
+
+textarea {
+  border-radius: 10px;
+  border: none;
+  height: 100px;
+}
+
+/* FOOTER */
+.footer {
+  background: linear-gradient(30deg, #78bcc4, #002c3e);
+  padding: 20px;
+  display: flex;
+  color: #f7f8f3;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer__img {
+  width: 200px;
+  margin-right: 20px;
+}
+
+.fab {
+  color: #f7f8f3;
+  font-size: 40px;
+  margin: 10px;
+}
+
+.far {
+  color: #f7f8f3;
+  font-size: 70px;
+  margin: 10px;
+}
+
+.fas {
+  color: #f7f8f3;
+  font-size: 70px;
+  margin: 10px;
+}
+
+/* sobre nosotras */
+.nosotras {
+  display: flex;
+  justify-content: center;
+}
+
+.nosotras__andrea {
+  background-color: #78bcc4;
+  color: #f7f8f3;
+  flex-direction: column;
+  margin: 50px;
+  padding: 50px;
+  width: 50%;
+  border-radius: 20px;
+}
+
+.nosotras__solange {
+  background-color: #78bcc4;
+  color: #f7f8f3;
+  flex-direction: column;
+  margin: 50px;
+  padding: 50px;
+  width: 50%;
+  border-radius: 20px;
+}
+
+.nosotras__solange:hover {
+  background-color: #fa991c;
+  color: black;
+}
+
+.nosotras__andrea:hover {
+  background-color: #fa991c;
+  color: black;
+}
+
+.nosotras__img {
+  width: 200px;
+  height: 260px;
+  border-radius: 15px;
+  align-self: flex-end;
+}
+
+.mision {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bolder;
+  padding: 30px;
+}
+
+/* SECCION "NUESTROS CLIENTES"*/
+.table {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+}
+
+.table__tr {
+  width: 70%;
+  justify-self: center;
+  align-self: center;
+  border-bottom: #fa991c solid 4px;
+}
+
+/* SECCION NUESTROS SERVICIOS */
+.first {
+  display: flex;
+  background-color: #f7f8f3;
+  margin: 50px;
+  padding: 80px;
+  border-radius: 20px;
+}
+
+.first__li {
+  list-style: none;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px;
+  font-weight: bolder;
+}
+
+.first__servicio {
+  justify-content: flex-start;
+}
+
+#first__servicio__icon {
+  color: #fa991c;
+  font-size: 2rem;
+}
+
+.imgBorder {
+  border-radius: 15%;
+  width: 300px;
+  padding: 30px;
+  margin-left: 20%;
+}
+
+.second {
+  display: flex;
+  background-color: #f7f8f3;
+  margin: 50px;
+  padding: 80px;
+  border-radius: 20px;
+}
+
+.second__p {
+  flex-direction: column;
+}
+
+/* SECCION CONTACTANOS */
+.busquedas {
+  background-color: #fa991c;
+  padding: 70px;
+  height: 600px;
+  align-items: center;
+  text-align: center;
+  margin: 50px;
+  border: none;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 960px) {
+  body {
+    background-color: #f7f8f3;
+  }
+  .header__nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 50px;
+    margin-top: -43px;
+  }
+  .nav__links {
+    list-style: none;
+    border-left: 2px solid #fa991c;
+    font-size: 15px;
+  }
+  .meet__img {
+    height: 200px;
+    align-self: center;
+    width: 200px;
+    border-radius: 40px;
+    padding: 30px;
+  }
+  .imgBorder {
+    border-radius: 15%;
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+  }
+  .second {
+    display: flex;
+    background-color: #f7f8f3;
+    flex-direction: column-reverse;
+    justify-content: center;
+    padding: 50px;
+    border-radius: 20px;
+  }
+  #textarea {
+    width: 100%;
+  }
+  #email {
+    width: 50%;
+  }
+  #name {
+    width: 50%;
+  }
+  .mision__frases {
+    display: flex;
+    flex-direction: row;
+  }
+  .mision__frases__1 {
+    font-size: 20px;
+    background-color: #002c3e;
+    font-weight: bolder;
+    color: #f7f8f3;
+    flex-direction: row;
+    width: 30%;
+    text-align: center;
+    border-radius: 80px;
+    padding: 40px;
+  }
+  .mision__frases__2 {
+    font-size: 20px;
+    background-color: #002c3e;
+    font-weight: bolder;
+    color: #f7f8f3;
+    flex-direction: row;
+    width: 30%;
+    text-align: center;
+    border-radius: 80px;
+    padding: 40px;
+  }
+  .mision__frases__3 {
+    font-size: 20px;
+    background-color: #002c3e;
+    font-weight: bolder;
+    color: #f7f8f3;
+    flex-direction: row;
+    width: 30%;
+    text-align: center;
+    border-radius: 80px;
+    padding: 40px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    background-color: #fa991c;
+  }
+  .header__nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 50px;
+    margin-top: -43px;
+  }
+  .nav__links {
+    list-style: none;
+    border-left: 2px solid #fa991c;
+    font-size: 13px;
+  }
+  .footer__img {
+    width: 200px;
+    align-self: center;
+    margin-right: 20px;
+  }
+  .mision__frases {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .mision__frases__1 {
+    font-size: 20px;
+    background-color: #002c3e;
+    font-weight: bolder;
+    color: #f7f8f3;
+    flex-direction: column;
+    width: 60%;
+    text-align: center;
+    border-radius: 80px;
+    padding: 70px;
+  }
+  .mision__frases__2 {
+    font-size: 20px;
+    background-color: #002c3e;
+    font-weight: bolder;
+    color: #f7f8f3;
+    flex-direction: column;
+    width: 60%;
+    text-align: center;
+    border-radius: 80px;
+    padding: 70px;
+  }
+  .mision__frases__3 {
+    font-size: 20px;
+    background-color: #002c3e;
+    font-weight: bolder;
+    color: #f7f8f3;
+    flex-direction: column;
+    width: 60%;
+    text-align: center;
+    border-radius: 80px;
+    padding: 70px;
+  }
+  .meet__img {
+    height: 200px;
+    align-self: center;
+    width: 200px;
+    border-radius: 40px;
+    padding: 30px;
+  }
+  .meet {
+    background-color: #f7f8f3;
+    padding: 70px;
+    margin: 50px;
+    border: none;
+    height: 800px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  form {
+    background-color: #78bcc4;
+    border-radius: 20px;
+    padding: 70px;
+    height: 700px;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+  #textarea {
+    width: 100%;
+  }
+  #email {
+    width: 50%;
+  }
+  #name {
+    width: 50%;
+  }
+  .nosotras {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .nosotras__andrea {
+    background-color: #78bcc4;
+    color: #f7f8f3;
+    margin: 50px;
+    padding: 50px;
+    width: 70%;
+    border-radius: 20px;
+  }
+  .nosotras__solange {
+    background-color: #78bcc4;
+    color: #f7f8f3;
+    margin: 50px;
+    padding: 50px;
+    width: 70%;
+    border-radius: 20px;
+  }
+  /* SECCION NUESTROS SERVICIOS */
+  .first {
+    display: flex;
+    background-color: #f7f8f3;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    margin: 30px;
+    padding: 80px;
+    border-radius: 20px;
+  }
+  .first__li {
+    list-style: none;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .first__p {
+    width: 90%;
+    font-size: 18px;
+    align-content: center;
+  }
+  .second {
+    display: flex;
+    background-color: #f7f8f3;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    margin: 30px;
+    padding: 80px;
+    border-radius: 20px;
+  }
+  .second__p {
+    width: 90%;
+    font-size: 18px;
+  }
+  .imgBorder {
+    border-radius: 15%;
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+  }
+  input {
+    border-radius: 10px;
+    border: none;
+    width: 200px;
+    height: 45px;
+  }
+  .busquedas {
+    background-color: #fa991c;
+    padding: 30px;
+    height: 700px;
+    align-items: center;
+    text-align: center;
+    margin: 30px;
+    border: none;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: #78bcc4;
+  }
+  .header {
+    background: linear-gradient(30deg, #78bcc4, #002c3e);
+    height: 500px;
+  }
+  .header__nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-top: 30px;
+    margin-right: 100px;
+  }
+  .mision__frases {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .mision__frases__1 {
+    font-size: 16px;
+    background-color: #002c3e;
+    font-weight: bolder;
+    color: #f7f8f3;
+    flex-direction: column;
+    width: 50%;
+    text-align: center;
+    border-radius: 80px;
+    padding: 40px;
+  }
+  .mision__frases__2 {
+    font-size: 16px;
+    background-color: #002c3e;
+    font-weight: bolder;
+    color: #f7f8f3;
+    flex-direction: column;
+    width: 50%;
+    text-align: center;
+    border-radius: 80px;
+    padding: 40px;
+  }
+  .mision__frases__3 {
+    font-size: 16px;
+    background-color: #002c3e;
+    font-weight: bolder;
+    color: #f7f8f3;
+    flex-direction: column;
+    width: 50%;
+    text-align: center;
+    border-radius: 80px;
+    padding: 40px;
+  }
+  .meet__img {
+    height: 200px;
+    align-self: center;
+    width: 200px;
+    border-radius: 40px;
+    padding: 30px;
+  }
+  .meet {
+    background-color: #f7f8f3;
+    padding: 30px;
+    text-align: center;
+    height: 700px;
+    margin: 30px;
+    border: none;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  #textarea {
+    width: 100%;
+  }
+  #email {
+    width: 50%;
+  }
+  #name {
+    width: 50%;
+  }
+  form {
+    background-color: #78bcc4;
+    border-radius: 20px;
+    padding: 30px;
+    height: 700px;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+  .busquedas {
+    background-color: #fa991c;
+    padding: 30px;
+    height: 700px;
+    align-items: center;
+    text-align: center;
+    margin: 30px;
+    border: none;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .footer {
+    background-color: #78bcc4;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  .fab {
+    color: #f7f8f3;
+    font-size: 30px;
+    margin: 10px;
+    justify-content: center;
+  }
+}
