@@ -604,37 +604,46 @@
       margin: 10px;
       justify-content: center; 
     }
+    // seccion nuestros servicios
+
     .first {
       display: flex;
       background-color: $color-2;
       flex-direction: column-reverse;
-      justify-content: space-around;
-      padding: 80px;
-      border-radius: 20px; }
-    .first__li {
+      border-radius: 20px; 
+    }
+    
+      .first__li {
       list-style: none;
-      font-size: 12px;
-      font-weight: bold; }
-    .first__p {
-      width: 90%;
-      font-size: 12px;
-      align-content: center; }
+      font-size: 14px;
+      justify-content: flex-start;
+      font-weight: bold; 
+    
+    }
+    #first__servicio__icon {
+      color: $color-1;
+      font-size: 1rem;
+    
+    }
+    
     .second {
       display: flex;
       background-color: $color-2;
       flex-direction: column-reverse;
       justify-content: space-around;
-      padding: 80px;
-      border-radius: 20px; }
+      border-radius: 20px; 
+    }
+
     .second__p {
-      width: 90%;
-      font-size: 12px; }
+      font-size: 14px;
+    }
+    
       .imgBorder {
         border-radius: 15%;
         width: 300px;
         height: 300px; 
-        padding: 30px; 
-        align-self: center;   
+        align-self: center;
+        margin-right: 50px;
       } 
   }
   
