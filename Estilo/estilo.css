@@ -636,10 +636,10 @@ textarea {
     font-weight: bolder;
     color: #f7f8f3;
     flex-direction: column;
-    width: 50%;
+    width: 70%;
     text-align: center;
     border-radius: 80px;
-    padding: 40px;
+    padding: 30px;
   }
   .mision__frases__2 {
     font-size: 16px;
@@ -647,10 +647,10 @@ textarea {
     font-weight: bolder;
     color: #f7f8f3;
     flex-direction: column;
-    width: 50%;
+    width: 70%;
     text-align: center;
     border-radius: 80px;
-    padding: 40px;
+    padding: 30px;
   }
   .mision__frases__3 {
     font-size: 16px;
@@ -658,10 +658,10 @@ textarea {
     font-weight: bolder;
     color: #f7f8f3;
     flex-direction: column;
-    width: 50%;
+    width: 70%;
     text-align: center;
     border-radius: 80px;
-    padding: 40px;
+    padding: 30px;
   }
   .meet__img {
     height: 200px;
@@ -694,7 +694,7 @@ textarea {
     background-color: #78bcc4;
     border-radius: 20px;
     padding: 30px;
-    height: 700px;
+    height: 750px;
     margin: 30px;
     display: flex;
     flex-direction: column;
